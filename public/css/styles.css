@@ -66,7 +66,8 @@ button:hover {
 
 h1 {
     color: #ff4081; /* Colorful accent for headings */
-    margin-bottom: 20px;
+    margin: 5px;
+    font-size: 65px;
 }
 
 p {
@@ -79,3 +80,8 @@ p {
     height: auto;
     border-radius: 8px;
 }
+.chakra-petch-bold {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
