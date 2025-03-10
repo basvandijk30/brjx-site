@@ -1,31 +1,39 @@
 body {
-    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Chakra Petch', sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #121212; /* Dark background */
-    color: #ffffff; /* Light text */
+}
+
+.fat {
+    color: #ff4081; 
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #ff4081; /* Colorful accent for headings */
+    color: #ff4081; 
 }
-
 a {
-    color: #1e88e5; /* Bright blue for links */
+    color: #ffffff;
+}
+a.url {
+    color: #1e88e5; 
     text-decoration: none;
 }
-
+a.social:visited {
+    color: #ffffff;
+}
 a:hover {
-    color: #ff4081; /* Change color on hover */
+    color: #ff4081; 
 }
 
 button {
-    background-color: #6200ea; /* Purple button background */
-    color: #ffffff; /* White text on buttons */
+    background-color: #6200ea; 
+    color: #ffffff; 
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -33,30 +41,31 @@ button {
 }
 
 button:hover {
-    background-color: #3700b3; /* Darker purple on hover */
+    background-color: #3700b3; 
 }
 
 .container {
-    background-color: #1e1e1e; /* Dark container background */
+    text-align: center;
+    margin-top: 5rem; /* Adjust this value if needed */
+    background-color: #1e1e1e; 
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     max-width: 600px;
     width: 100%;
-    text-align: center;
 }
 
 .card {
-    background-color: #333; /* Dark card background */
-    border-radius: 8px;
-    padding: 15px;
-    margin: 10px 0;
+    background-color: #1f1f1f;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 1rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .footer {
-    background-color: #1e1e1e; /* Dark footer background */
-    color: #b0bec5; /* Light gray text */
+    background-color: #1e1e1e; 
+    color: #b0bec5; 
     text-align: center;
     padding: 10px 0;
     position: relative;
@@ -65,23 +74,47 @@ button:hover {
 }
 
 h1 {
-    color: #ff4081; /* Colorful accent for headings */
+    color: #ff4081; 
     margin: 5px;
     font-size: 65px;
 }
 
 p {
-    color: #b0bec5; /* Light gray text */
+    color: #b0bec5; 
     line-height: 1.6;
 }
 
 .responsive-img {
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 10px;
 }
+
 .chakra-petch-bold {
     font-family: "Chakra Petch", sans-serif;
     font-weight: 700;
     font-style: normal;
-  }
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f1f1f;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #333333;
+}

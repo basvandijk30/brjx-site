@@ -16,7 +16,13 @@
 </head>
 
 <body>
-    <div class="container">
+    <nav class="navbar">
+        <a href="#home" onclick="showSection('home')">Home</a>
+        <a href="#pricing" onclick="showSection('pricing')">Pricing</a>
+        <a href="#about" onclick="showSection('about')">About</a>
+        <a href="#contact" onclick="showSection('contact')">Contact</a>
+    </nav>
+    <div class="container" id="home">
         <h1 class="chakra-petch-bold">BRJX</h1>
         <div class="card">
             <img src="images/party-lights.jpg" alt="Party Lights" class="responsive-img">
@@ -24,6 +30,27 @@
             <p><i class="fas fa-magic"></i> Ervaring om nooit te vergeten</p>
         </div>
     </div>
+    <div class="container" id="pricing" style="display: none;">
+        <h1 class="chakra-petch-bold">Pricing</h1>
+        <div class="card">
+            <p>Dit product is nog niet verkrijgbaar.</p>
+        </div>
+    </div>
+    <div class="container" id="about" style="display: none;">
+        <h1 class="chakra-petch-bold">About</h1>
+        <div class="card">
+            <p>Het huren van professionele feestverlichting is helaas erg duur. Wil jij toch je feest of partij upgraden en het onvergetelijk maken? Maak dan gebruik van BRJX-lights!</p>
+        </div>
+    </div>
+    <div class="container" id="contact" style="display: none;">
+        <h1 class="chakra-petch-bold">Contact</h1>
+        <div class="card">
+            <p><i class="fat fa-brands fa-instagram"></i> <a href="https://instagram.com/basvandijk30" class="social">basvandijk30 </a></p></h3> 
+            <p><i class="fat fa-brands fa-instagram"></i> <a href="https://instagram.com/ramon_siers" class="social">ramon_siers </a></p></h3> 
+            <p><i class="fat fa-brands fa-instagram"></i> <a href="https://instagram.com/jurgenbraan" class="social">jurgenbraan </a></p></h3> 
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
