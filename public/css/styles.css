@@ -11,11 +11,11 @@ body {
 }
 
 .fat {
-    color: #ff4081; 
+    color: #fe00fb; 
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #ff4081; 
+    color: #fe00fb; 
 }
 a {
     color: #ffffff;
@@ -26,9 +26,6 @@ a.url {
 }
 a.social:visited {
     color: #ffffff;
-}
-a:hover {
-    color: #ff4081; 
 }
 
 button {
@@ -74,7 +71,7 @@ button:hover {
 }
 
 h1 {
-    color: #ff4081; 
+    color: #fe00fb;
     margin: 5px;
     font-size: 65px;
 }
